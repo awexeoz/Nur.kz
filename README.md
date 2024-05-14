@@ -1,4 +1,4 @@
-# Nurkz News Bot
+# 📰 Nurkz News Bot
 
 ## Overview
 
@@ -6,27 +6,27 @@ This Python script implements a Telegram bot that provides users with the latest
 
 ## Features
 
-1. **News Fetching and Notification:**
+1. **🔔 News Fetching and Notification:**
    - The script fetches news articles from the Nur.kz website periodically.
    - New articles are stored in a MongoDB database, and notifications about them are sent to all users who have interacted with the bot.
    
-2. **Pagination:**
+2. **📄 Pagination:**
    - Users can navigate through paginated news articles using inline keyboard pagination.
    
-3. **User Interaction:**
+3. **💬 User Interaction:**
    - Users can start the bot and request news updates by clicking the "News" button in the bot's menu.
    - The bot records the time of users' interactions and updates it with each interaction.
 
 ## Dependencies
 
-- `asyncio`: Asynchronous I/O library for running concurrent tasks.
-- `logging`: Python logging module for logging messages.
-- `requests`: HTTP library for making requests to web servers.
-- `re`: Regular expression operations for pattern matching.
-- `json`: Module for encoding and decoding JSON data.
-- `BeautifulSoup`: Library for web scraping HTML and XML files.
-- `aiogram`: Library for developing Telegram bots.
-- `pymongo`: MongoDB driver for Python.
+- **asyncio:** Asynchronous I/O library for running concurrent tasks.
+- **logging:** Python logging module for logging messages.
+- **requests:** HTTP library for making requests to web servers.
+- **re:** Regular expression operations for pattern matching.
+- **json:** Module for encoding and decoding JSON data.
+- **BeautifulSoup:** Library for web scraping HTML and XML files.
+- **aiogram:** Library for developing Telegram bots.
+- **pymongo:** MongoDB driver for Python.
 
 ## Setup
 
@@ -56,5 +56,4 @@ This Python script implements a Telegram bot that provides users with the latest
 - The script fetches news updates from the Nur.kz website at intervals of 60 seconds.
 - News articles are stored in a JSON file (`news_dict.json`) and a MongoDB collection (`users`).
 - Pagination allows users to view multiple news articles in a sequential manner.
-
 
